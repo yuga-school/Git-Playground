@@ -3,7 +3,8 @@ import fractions
 
 # [機能A]@アリス担当 #############
 def func_A ():
-  print('func_A called.')
+  ans = fractions.Fraction(2,3)+fractions.Fraction(4,6)
+  print(f'2/3 + 4/6 = {ans} (= {float(ans):.2f})')  
 
 # [機能B]@ボブ担当 ###############
 
